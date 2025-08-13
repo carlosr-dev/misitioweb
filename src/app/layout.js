@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="/assets/img/favicon/favicon.png"
+          href="/favicon.ico"
         />
 
         <link rel="stylesheet" href="/assets/css/bootstrap.css" />
