@@ -5,8 +5,60 @@ import Script from 'next/script';
 
 export const metadata = {
   title: 'Carlosr Dev | Te ayudo a crear tu presencia digital',
-  description: 'Desarrollo de páginas web, tiendas en línea y sitios a medida en Toluca y Metepec. Impulsa tu presencia digital con diseños modernos y funcionales.',
+  description:
+    'Diseño y desarrollo de páginas web modernas, tiendas en línea y sitios a medida en Toluca, Metepec y alrededores. Impulsa tu presencia digital con soluciones profesionales.',
+  keywords: [
+    'desarrollo web Toluca',
+    'páginas web Toluca',
+    'páginas web Metepec',
+    'páginas web Lerma',
+    'páginas web San Mateo Atenco',
+    'páginas web Xonacatlán',
+    'tiendas en línea Toluca',
+    'tiendas en línea Metepec',
+    'tiendas en línea LErma',
+    'diseño web profesional',
+    'sitios web a medida',
+    'Carlosr Dev',
+    'presencia digital',
+    'Toluca',
+    'Metepec',
+    'Lerma',
+    'San Mateo Atenco',
+    'Xonacatlán',
+    'Estado de México',
+  ],
+  authors: [{ name: 'Carlosr Dev', url: 'https://carlosrdev.netlify.app' }],
+  metadataBase: new URL('https://carlosrdev.netlify.app'),
+  alternates: {
+    canonical: 'https://carlosrdev.netlify.app',
+  },
+  openGraph: {
+    title: 'Desarrollo Web en Toluca y Metepec | Carlosr Dev',
+    description:
+      'Diseño y desarrollo de páginas web modernas, tiendas en línea y sitios a medida en Toluca, Metepec y alrededores. Presencia digital profesional.',
+    url: 'https://carlosrdev.netlify.app',
+    siteName: 'Carlosr Dev',
+    locale: 'es_MX',
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/og-image.jpg', // 1200x630 px recomendado
+        width: 1200,
+        height: 630,
+        alt: 'Ejemplo de página web desarrollada por Carlosr Dev',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Desarrollo Web en Toluca y Metepec | Carlosr Dev',
+    description:
+      'Diseño y desarrollo de páginas web modernas, tiendas en línea y sitios a medida en Toluca y Metepec.',
+    images: ['/assets/og-image.jpg'],
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
