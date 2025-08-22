@@ -3,7 +3,14 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer id="footer">
-      <div className="tp-footer-3-bg bg-position p-relative fix z-index-1">
+      <div className="tp-footer-3-bg bg-footer p-relative fix z-index-1">
+        <div className="section__shape-2" />
+        <div className="section__shape-3">
+          <img
+            src="assets/img/shapes/about-two-shape-3.png"
+            alt="about shape-3"
+          />
+        </div>
         <div className="tp-footer-3-area pt-40 pb-20">
           <div className="container">
             <div className="row">

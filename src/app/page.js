@@ -38,7 +38,7 @@ export default function Home() {
                   data-wow-delay=".3s"
                 >
                   Te ayudo a crear tu <br />
-                  <span style={{ color: "#5CB0E9" }}>
+                  <span className="tp-hero-title-main">
                     <Typewriter
                       words={[
                         "Presencia Digital",
@@ -147,7 +147,10 @@ export default function Home() {
       <div className="tp-about-area pt-110 pb-120" id="sobre-mi">
         <div className="section__shape-2" />
         <div className="section__shape-3">
-          <img src="assets/img/shapes/about-two-shape-3.png" alt="about shape-3" />
+          <img
+            src="assets/img/shapes/about-two-shape-3.png"
+            alt="about shape-3"
+          />
         </div>
         <div className="container">
           <div className="row">
@@ -165,7 +168,11 @@ export default function Home() {
                   </h6>
                 </div>
                 <div className="tp-about-3-thumb">
-                  <img src="/assets/img/about/about-1.png" width={480} alt="about" />
+                  <img
+                    src="/assets/img/about/about-1.png"
+                    width={480}
+                    alt="about"
+                  />
                 </div>
                 {/* <div className="tp-about-3-thumb-2">
                   <img src="assets/img/about/about-3/about-2.jpg" alt="about" />
@@ -186,24 +193,13 @@ export default function Home() {
                     Tu aliado en el mundo digital
                   </h2>
                   <p className="tp-section-para pure-blue-2">
-                    Soy <strong>Carlos</strong>, desarrollador web con
-                    experiencia en la creación de sitios modernos, funcionales y
-                    optimizados para convertir visitantes en clientes.
+                    Soy <strong>Carlos Ramírez</strong>, desarrollador web con
+                    más de 5 años de experiencia, he trabajado en proyectos para
+                    diferentes giros de negocios, creando sitios modernos,
+                    funcionales y enfocados en resultados. Mi objetivo es
+                    ayudarte a tener una <strong>presencia en línea profesional</strong> que transmita
+                    confianza e impulse tu negocio.
                   </p>
-                  <p className="tp-section-para pure-blue-2">
-                    Me especializo en tecnologías como{" "}
-                    <strong>Next.js, React, Laravel y Wordpress</strong>,
-                    combino un diseño atractivo con un código limpio y
-                    eficiente. Mi objetivo es ayudar a emprendedores y negocios
-                    a tener una
-                    <strong> presencia digital sólida</strong> que transmita
-                    confianza y profesionalismo.
-                  </p>
-                  {/* <p className="tp-section-para pure-blue-2">
-                    Creo firmemente que una web no es solo estética, sino una herramienta 
-                    estratégica para crecer tu negocio. Trabajo de manera cercana con 
-                    cada cliente para asegurar que el resultado sea exactamente lo que necesitan.
-                  </p> */}
                 </div>
                 <div className="tp-about-3-feature-wrap mb-20">
                   <div className="row">
@@ -226,7 +222,7 @@ export default function Home() {
                       <div className="tp-about-3-feature-item mb-20 d-flex">
                         <div className="tp-about-3-feature-icon mr-10">
                           <span>
-                           <i className="fa fa-circle-check" />
+                            <i className="fa fa-circle-check" />
                           </span>
                         </div>
                         <div className="tp-about-3-feature-content">
@@ -253,7 +249,7 @@ export default function Home() {
         </div>
       </div>
 
- <div className="tp-brand-area">
+      <div className="tp-brand-area">
         <div className="tp-text-wrapper">
           <div className="swiper-container tp-text-active">
             <div className="swiper-wrapper slide-transtion">
@@ -317,10 +313,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        className="tp-service-3-ptb pt-160 pb-160 fix"
-        id="servicios"
-      >
+      <div className="tp-service-3-ptb pt-160 pb-160 fix" id="servicios">
         <div className="service-two__sec-shape-1" />
         <div className="service-two__sec-shape-2" />
         <div className="service-two__sec-shape-3" />
@@ -356,8 +349,9 @@ export default function Home() {
                       <div className="tp-service-3-content-box">
                         <div className="tp-service-3-content">
                           <h3 className="tp-service-3-title">
-                            <a href="https://wa.me/5217225390427?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20Desarrollo%20Web"
-                             target="_blank"
+                            <a
+                              href="https://wa.me/5217225390427?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20Desarrollo%20Web"
+                              target="_blank"
                             >
                               Desarrollo Web
                             </a>
@@ -383,7 +377,8 @@ export default function Home() {
                       <div className="tp-service-3-content-box">
                         <div className="tp-service-3-content">
                           <h3 className="tp-service-3-title">
-                            <a href="https://wa.me/5211234567890?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Tiendas%20en%20L%C3%ADnea"
+                            <a
+                              href="https://wa.me/5211234567890?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Tiendas%20en%20L%C3%ADnea"
                               target="_blank"
                             >
                               Tiendas en Línea
@@ -409,7 +404,8 @@ export default function Home() {
                       <div className="tp-service-3-content-box">
                         <div className="tp-service-3-content">
                           <h3 className="tp-service-3-title">
-                            <a href="https://wa.me/5211234567890?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Desarrollo%20Web%20a%20la%20Medida"
+                            <a
+                              href="https://wa.me/5211234567890?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Desarrollo%20Web%20a%20la%20Medida"
                               target="_blank"
                             >
                               Desarrollo a la Medida
@@ -436,8 +432,9 @@ export default function Home() {
                       <div className="tp-service-3-content-box">
                         <div className="tp-service-3-content">
                           <h3 className="tp-service-3-title">
-                            <a href="https://wa.me/5211234567890?text=Hola%2C%20me%20gustar%C3%ADa%20cotizar%20el%20servicio%20de%20Mantenimiento%20Web"
-                             target="_blank"
+                            <a
+                              href="https://wa.me/5211234567890?text=Hola%2C%20me%20gustar%C3%ADa%20cotizar%20el%20servicio%20de%20Mantenimiento%20Web"
+                              target="_blank"
                             >
                               Mantenimiento Web
                             </a>
@@ -697,7 +694,10 @@ export default function Home() {
       <div className="tp-contact-area pt-120 pb-120" id="contacto">
         <div className="section__shape-2" />
         <div className="section__shape-3">
-          <img src="assets/img/shapes/about-two-shape-3.png" alt="about shape-3" />
+          <img
+            src="assets/img/shapes/about-two-shape-3.png"
+            alt="about shape-3"
+          />
         </div>
         <div className="container">
           <div className="row">
